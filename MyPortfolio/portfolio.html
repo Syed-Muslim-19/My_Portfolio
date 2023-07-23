@@ -1,194 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My PortFolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="icon" href="tag.png">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-        <!-- HEADER -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My PortFolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="icon" href="tag.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-primary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><h2 class="BR">MY <span>PORTFOLIO</span></h2></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
-                        aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarID"> 
-                    <div class="navbar-nav" id="intro">
-                        <a class="nav-link active" aria-current="page" href="#intro"><p class="links">Introduction</p></a>
-                        <a class="nav-link active" aria-current="page" href="#portfolio"><p class="links">Portfolio</p></a>
-                        <a class="nav-link active" aria-current="page" href="#arch"><p class="links">Archievements</p></a>
-                        <a class="nav-link active" aria-current="page" href="#career"><p class="links">Career/Contact</p></a>
-                    </div>
-                </div>
+      <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><h2 class="BR">MY <span>PORTFOLIO</span></h2></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarID"
+            aria-controls="navbarID"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarID"
+          >
+            <div class="navbar-nav" id="intro">
+              <a class="nav-link active" aria-current="page" href="#intro"
+                ><p class="links">Introduction</p></a
+              >
+              <a class="nav-link active" aria-current="page" href="#portfolio"
+                ><p class="links">Portfolio</p></a
+              >
+              <a class="nav-link active" aria-current="page" href="#arch"
+                ><p class="links">Archievements</p></a
+              >
+              <a class="nav-link active" aria-current="page" href="#career"
+                ><p class="links">Career/Contact</p></a
+              >
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col1 col-lg-6 col-md-6 col-sm-12">
-                    <img src="Mypic.jpeg" alt="" srcset="" class="DP">
-                </div>
-                <div class="col2 col-lg-6 col-md-6 col-sm-12">
-                    <h2 class="heading">Syed Muhammad Muslim Shahzad</h2>
-                    <p>I'm a <b>Front-End Developer, C++ Developer</b> and <b>2D-3D Game Developer</b></p>
-                    <ul>
-                        <li>I am a front end developer and have earned many <b>Certificates</b>. I have uploaded templates for various websites on my GitHub Account</li>
-                        <li>I am also a <b>C++ language expert</b>. I have uploaded various algo C++ codes on my Github Account</li>
-                        <li>Now I am learing skills to build a professional <b>3D Game on Unity5</b></li>
-                    </ul>
-                </div>
-            </div>
-            <h2 class="project" id="portfolio">PORTFOLIO</h2>
-            <div class="row2">
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
-                    <div class="col bm-2">
-                      <div class="card h-100">
-                        <img src="website-builder-bg.jpg" class="card-img-top" alt="EurOrbit">
-                        <div class="card-body">
-                          <h5 class="card-title">HTML/CSS/JS</h5>
-                          <p class="card-text">My websites Templates</p>
-                          <a href="hcj.html" target="_blank" class="btn btn-primary">View My Templates</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col bm-2 ">
-                      <div class="card h-100">
-                        <img src="c-plus-plus_code-100790020-large.webp" class="card-img-top" alt="Illustrator Artwork">
-                        <div class="card-body">
-                          <h5 class="card-title">C++</h5>
-                          <p class="card-text">My C++ codes and Projects</p>
-                          <a href="cpp.html" target="_blank" class="btn btn-primary">Take a Closer Look</a>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <div class="col bm-2">
-                      <div class="card h-100">
-                        <img src="unity-logo_teCooZK.webp" class="card-img-top" alt="GitHub">
-                        <div class="card-body">
-                          <h5 class="card-title">Unity5</h5>
-                          <p class="card-text">My Unity Games</p>
-                          <a href="unity.html" target="_blank" class="btn btn-primary">View my Games</a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col bm-2">
-                        <div class="card h-100">
-                          <img src="download.png" class="card-img-top" alt="GitHub">
-                          <div class="card-body">
-                            <h5 class="card-title">GitHub</h5>
-                            <p class="card-text">Take a look at my other projects on GitHub</p>
-                            <a href="https://github.com/Syed-Muslim-19" target="_blank" class="btn btn-primary">Go to my GitHub</a>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-            </div>
-            <h2 class="project arch" id="skill">SKILLS and ARCHIEVEMENTS</h2>
-           <div class="skills">
-            <button type="button" class="btn btn-secondary butt" id="arch" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
-                HTML
-            </button>
-            <button type="button" class="btn btn-secondary butt" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
-                CSS
-              </button>
-              <button type="button" class="btn btn-secondary butt" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
-                JS
-              </button>
-              <button type="button" class="btn btn-secondary butt" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
-                C++
-              </button>
-              <button type="button" class="btn btn-secondary butt" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
-                Python
-              </button>
-           </div>
-           <div class="points">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col1 col-lg-6 col-md-6 col-sm-12">
+            <img src="Mypic.jpeg" alt="" srcset="" class="DP" />
+          </div>
+          <div class="col2 col-lg-6 col-md-6 col-sm-12">
+            <h2 class="heading">Syed Muhammad Muslim Shahzad</h2>
+            <p>
+              I'm a <b>Front-End Developer, C++ Developer</b> and
+              <b>2D-3D Game Developer</b>
+            </p>
             <ul>
-                <h4> Front-End Developer</h4>
-                <h4>C++ language expert</h4>
-                <h4>2D-3D Game Developer</h4>
+              <li>
+                I am a front end developer and have earned many
+                <b>Certificates</b>. I have uploaded templates for various
+                websites on my GitHub Account
+              </li>
+              <li>
+                I am also a <b>C++ language expert</b>. I have uploaded various
+                algo C++ codes on my Github Account
+              </li>
+              <li>
+                Now I am learing skills to build a professional
+                <b>3D Game on Unity5</b>
+              </li>
             </ul>
-           </div>
-           <div class="career">
-            <h2 class="project arch" id="career">CAREER HIGHLIGHTS</h2>
-            <!-- SCHOOL -->
-            <div class="card mb-3" style="width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h4 class="card-title"><b>DHA Senior School for Boys</b></h4>
-                        <p class="card-text">I have done my Primary and Secondary DHA School System. I have obtained <b>85.54%</b> is my Matriculation <b>FBISE</b></p>
-                        <p class="card-text"></p>
-                      </div>
-                    </div>
-                  <div class="col-md-4">
-                    <img src="school.jpg" class="card-img card-img1" alt="...">
-                  </div>
-                </div>
-              </div>
-              <!-- COLLEGE -->
-              <div class="card mb-3" style="width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h4 class="card-title"><b>PGC Campus 8A</b></h4>
-                        <p class="card-text">I have done <b>Pre-Engineering</b> from Punjab Groups of Colleges and obatined <b>92.54%</b> in my Intermediate <b>BISE</b></p>
-                        <p class="card-text"><small class="text-muted"></small></p>
-                      </div>
-                    </div>
-                  <div class="col-md-4">
-                    <img src="college.jpg" class="card-img card-img2" alt="...">
-                  </div>
-                </div>
-              </div>
-              <!-- UNIVERSITY -->
-              <div class="card mb-3" style="width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h4 class="card-title"><b>FAST-NUCES Lahore</b></h4>
-                        <p class="card-text">I am currently doing my <b>Bachelors in Compter Science(BSCS)</b> from FAST-NUCES Lahore</p>
-                        <p class="card-text"></p>
-                      </div>
-                    </div>
-                  <div class="col-md-4">
-                    <img src="university.jpg" class="card-img third" alt="...">
-                  </div>
-                </div>
-              </div>
-              <!-- UNI ENDS -->
-           </div>
+          </div>
         </div>
+        <h2 class="project" id="portfolio">PORTFOLIO</h2>
+        <div class="row2">
+          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col bm-2">
+              <div class="card h-100">
+                <img
+                  src="website-builder-bg.jpg"
+                  class="card-img-top"
+                  alt="EurOrbit"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">HTML/CSS/JS</h5>
+                  <p class="card-text">My websites Templates</p>
+                  <a href="hcj.html" target="_blank" class="btn btn-primary"
+                    >View My Templates</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col bm-2">
+              <div class="card h-100">
+                <img
+                  src="c-plus-plus_code-100790020-large.webp"
+                  class="card-img-top"
+                  alt="Illustrator Artwork"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">C++</h5>
+                  <p class="card-text">My C++ codes and Projects</p>
+                  <a href="cpp.html" target="_blank" class="btn btn-primary"
+                    >Take a Closer Look</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col bm-2">
+              <div class="card h-100">
+                <img
+                  src="unity-logo_teCooZK.webp"
+                  class="card-img-top"
+                  alt="GitHub"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Unity5</h5>
+                  <p class="card-text">My Unity Games</p>
+                  <a href="unity.html" target="_blank" class="btn btn-primary"
+                    >View my Games</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col bm-2">
+              <div class="card h-100">
+                <img src="download.png" class="card-img-top" alt="GitHub" />
+                <div class="card-body">
+                  <h5 class="card-title">GitHub</h5>
+                  <p class="card-text">
+                    Take a look at my other projects on GitHub
+                  </p>
+                  <a
+                    href="https://github.com/Syed-Muslim-19"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Go to my GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="project arch" id="skill">SKILLS and ARCHIEVEMENTS</h2>
+        <div class="skills">
+          <button
+            type="button"
+            class="btn btn-secondary butt"
+            id="arch"
+            data-toggle="tooltip"
+            data-html="true"
+            title="<em>Tooltip</em> <u>with</u> <b>HTML</b>"
+          >
+            HTML
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary butt"
+            data-toggle="tooltip"
+            data-html="true"
+            title="<em>Tooltip</em> <u>with</u> <b>HTML</b>"
+          >
+            CSS
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary butt"
+            data-toggle="tooltip"
+            data-html="true"
+            title="<em>Tooltip</em> <u>with</u> <b>HTML</b>"
+          >
+            JS
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary butt"
+            data-toggle="tooltip"
+            data-html="true"
+            title="<em>Tooltip</em> <u>with</u> <b>HTML</b>"
+          >
+            C++
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary butt"
+            data-toggle="tooltip"
+            data-html="true"
+            title="<em>Tooltip</em> <u>with</u> <b>HTML</b>"
+          >
+            Python
+          </button>
+        </div>
+        <div class="points">
+          <ul>
+            <h4>Front-End Developer</h4>
+            <h4>C++ language expert</h4>
+            <h4>2D-3D Game Developer</h4>
+          </ul>
+        </div>
+        <div class="career">
+          <h2 class="project arch" id="career">CAREER HIGHLIGHTS</h2>
+          <!-- SCHOOL -->
+          <div class="card mb-3" style="width: 100%">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title"><b>DHA Senior School for Boys</b></h4>
+                  <p class="card-text">
+                    I have done my Primary and Secondary DHA School System. I
+                    have obtained <b>85.54%</b> is my Matriculation <b>FBISE</b>
+                  </p>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="school.jpg" class="card-img card-img1" alt="..." />
+              </div>
+            </div>
+          </div>
+          <!-- COLLEGE -->
+          <div class="card mb-3" style="width: 100%">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title"><b>PGC Campus 8A</b></h4>
+                  <p class="card-text">
+                    I have done <b>Pre-Engineering</b> from Punjab Groups of
+                    Colleges and obatined <b>92.54%</b> in my Intermediate
+                    <b>BISE</b>
+                  </p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="college.jpg" class="card-img card-img2" alt="..." />
+              </div>
+            </div>
+          </div>
+          <!-- UNIVERSITY -->
+          <div class="card mb-3" style="width: 100%">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title"><b>FAST-NUCES Lahore</b></h4>
+                  <p class="card-text">
+                    I am currently doing my
+                    <b>Bachelors in Compter Science(BSCS)</b> from FAST-NUCES
+                    Lahore
+                  </p>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="university.jpg" class="card-img third" alt="..." />
+              </div>
+            </div>
+          </div>
+          <!-- UNI ENDS -->
+        </div>
+      </div>
     </main>
     <!-- FOOTER -->
     <div class="footer-basic">
       <footer>
-          <div class="social"><a href="https://www.instagram.com/syed_muslim_015/"><i class="icon ion-social-instagram"></i></a><a href="https://www.snapchat.com/add/muslimbukhari?share_id=eHRi0+bYRQ2PJ3O6kXtCPg&locale=en_PK&sid=f8ee1386f6794faaac1a7b04a77ab9dc"><i class="icon ion-social-snapchat"></i></a><a href="https://www.facebook.com/profile.php?id=100009320153454&mibextid=LQQJ4d"><i class="icon ion-social-facebook"></i></a><a href="https://www.linkedin.com/in/syedmuslim015/"><i class="icon ion-social-linkedin"></i></a></div>
-          <ul class="list-inline">
-              <li class="list-inline-item"><a href="#intro">INTRODUCTION</a></li>
-              <li class="list-inline-item"><a href="#portfolio">PORTFOLIO</a></li>
-              <li class="list-inline-item"><a href="#arch">Archievements</a></li>
-              <li class="list-inline-item"><a href="#career">Career</a></li>
-              <li class="list-inline-item block"><a href="mailto:muslim.snh@gmail.com"><button type="button" class="btn btn-secondary butt" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+        <div class="social">
+          <a href="https://www.instagram.com/syed_muslim_015/"
+            ><i class="icon ion-social-instagram"></i></a
+          ><a
+            href="https://www.snapchat.com/add/muslimbukhari?share_id=eHRi0+bYRQ2PJ3O6kXtCPg&locale=en_PK&sid=f8ee1386f6794faaac1a7b04a77ab9dc"
+            ><i class="icon ion-social-snapchat"></i></a
+          ><a
+            href="https://www.facebook.com/profile.php?id=100009320153454&mibextid=LQQJ4d"
+            ><i class="icon ion-social-facebook"></i></a
+          ><a href="https://www.linkedin.com/in/syedmuslim015/"
+            ><i class="icon ion-social-linkedin"></i
+          ></a>
+        </div>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#intro">Introduction</a></li>
+          <li class="list-inline-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="list-inline-item"><a href="#arch">Archievements</a></li>
+          <li class="list-inline-item"><a href="#career">Career</a></li>
+          <li class="list-inline-item block">
+            <a href="mailto:muslim.snh@gmail.com"
+              ><button
+                type="button"
+                class="btn btn-secondary butt"
+                data-toggle="tooltip"
+                data-html="true"
+                title="<em>Tooltip</em> <u>with</u> <b>HTML</b>"
+              >
                 Send Mail
-              </button></a></li>
-              
-          </ul>
-          <p class="copyright">Designed by Syed M Muslim © 2023</p>
+              </button></a
+            >
+          </li>
+        </ul>
+        <p class="copyright">Designed by Syed M Muslim © 2023</p>
       </footer>
-  </div>
+    </div>
     <script src="portfolio.js"></script>
-</body>
+  </body>
 </html>
